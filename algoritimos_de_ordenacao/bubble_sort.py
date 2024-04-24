@@ -13,4 +13,6 @@ def bubble_sort(vetor):
     print(vetor)
 
 
+bubble_sort([15,34,8,3,50,60])
+bubble_sort([15,34,8,3])
 bubble_sort([10,9,8,7,6,5,4,3,2,1])

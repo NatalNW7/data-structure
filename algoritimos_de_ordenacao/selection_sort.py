@@ -14,4 +14,6 @@ def selection_sort(vetor):
 
     print(vetor)
 
+selection_sort([15,34,8,3,50,60])
+selection_sort([15,34,8,3])
 selection_sort([10,9,8,7,6,5,4,3,2,1])
