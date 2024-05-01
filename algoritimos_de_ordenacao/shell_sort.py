@@ -13,8 +13,9 @@ def shell_sort(vetor):
             vetor[temp_index] = temp
         intervalo //=2
 
-    print(vetor)
+    return vetor
 
-shell_sort([15,34,8,3,50,60])
-shell_sort([15,34,8,3])
-shell_sort([10,9,8,7,6,5,4,3,2,1])
+if "__main__" == __name__:
+    shell_sort([15,34,8,3,50,60])
+    shell_sort([15,34,8,3])
+    shell_sort([10,9,8,7,6,5,4,3,2,1])

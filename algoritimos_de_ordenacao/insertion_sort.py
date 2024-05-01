@@ -12,8 +12,9 @@ def insertion_sort(vetor):
         vetor[before_index+1] = maked_value
 
         
-    print(vetor)
+    return vetor
 
-insertion_sort([15,34,8,3,50,60])
-insertion_sort([15,34,8,3])
-insertion_sort([10,9,8,7,6,5,4,3,2,1])
+if "__main__" == __name__:
+    insertion_sort([15,34,8,3,50,60])
+    insertion_sort([15,34,8,3])
+    insertion_sort([10,9,8,7,6,5,4,3,2,1])

@@ -12,8 +12,9 @@ def selection_sort(vetor):
         vetor[section] = vetor[min_value_position] 
         vetor[min_value_position] = temp
 
-    print(vetor)
+    return  vetor
 
-selection_sort([15,34,8,3,50,60])
-selection_sort([15,34,8,3])
-selection_sort([10,9,8,7,6,5,4,3,2,1])
+if "__main__" == __name__:
+    selection_sort([15,34,8,3,50,60])
+    selection_sort([15,34,8,3])
+    selection_sort([10,9,8,7,6,5,4,3,2,1])
